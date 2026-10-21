@@ -1,0 +1,29 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.jj": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/flutter/ephemeral": true,
+        "**/Flutter/ephemeral": true,
+        "**/.symlinks": true,
+        "**/.plugin_symlinks": true,
+        "**/*.meta": true,
+        "**/*.fbx": true,
+        "Libraries/": true,
+        "Cache": false,
+        "Cache/": false,
+        "Cache/**": false
+    },
+    "workbench.colorTheme": "Dark 2026",
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "*.deprecated": {
+                "fontStyle": "strikethrough"
+            }
+        }
+    },
+    "path-intellisense.extensionOnImport": true
+}
